@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="main.js"></script>
+	<title>QUIZ</title>
+</head>
+<body>
+ <h4>Quiz</h4>
+ <form id="quiz" name="quiz">
+  <p>what is the krishnaveni pet name?</p>
+  <input id="textbox" type="text" name="question1">
+  <p>what is the capital of connecticut?</p>
+  <input id="mc" type="radio" name="question2" value="Hartford"> Hartford<br>
+  <input id="mc" type="radio" name="question2" value="Heartfoard"> Heartfoard<br>
+  <p>what is the capital of New York?</p>
+  <input id="mc" type="radio" name="question3" value="Albany"> Albany <br>
+  <input id="mc" type="radio" name="question3" value="All Benny's"> All Benny's <br> <br>
+  <input id="button" type="button" value="I'm finished" onclick="check()">
+  </form>
+  <div class="clear"></div>
+  <div id="after_submit">
+  	<p id="message"></p>
+  	<p id="number_correct"></p>
+  	<img id="picture">
+  </div>
+ 
+</body>
+</html>
